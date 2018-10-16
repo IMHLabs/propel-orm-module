@@ -1,0 +1,33 @@
+{
+    "name":         "IMHLabs/propel-orm-module",
+    "description":  "Propel Orm Module",
+    "type":         "library",
+    "keywords": [
+        "Propel",
+        "ORM",
+        "Zend Framework",
+		"Module"
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/IMHLabs/propel-console"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/IMHLabs/propel-config"
+        }
+    ],
+    "require": {
+        "propel/propel": "2.0.0-alpha8",
+        "IMHLabs/propel-config": "dev-master",
+        "IMHLabs/propel-console": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "PropelORMModule\\": "src/"
+        }
+    }
+}
+
+
